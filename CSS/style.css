@@ -34,7 +34,6 @@ header {
     flex-direction: column;
 }
 
-
 nav {
     height: 100%;
     display: flex;
@@ -86,13 +85,40 @@ nav .nav-right-section li:hover{
 }
 
 main {
-    width: 100vw;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    width: 75vw;
+    height: 100vh;
     background-color: white;
+    margin-left: 25vw;
 }
 
+main .biography {
+    display: flex;
+    height: 100vh;
+}
+.biography_photo img{
+    height: 250px;
+    width: 250px;
+    border-radius: 15%;
+}
+
+main .biography_curriculum h1{
+        font-size: 4rem;
+        font-family: 'Fragment Mono', monospace;
+        margin-top: 10rem;
+        margin-bottom: 3rem;
+        color: #383e6d;
+}
+
+main .biography_curriculum p{
+    font-size: 1.8rem;
+    font-family: 'Fragment Mono', monospace;
+    margin: 0 10rem 1.5rem 0;
+    display: flex;
+    text-align: justify;
+    color: #383e6d;
+}
+
+/* 
 main .main-photo {
     display: flex;
     justify-content: space-evenly;
@@ -130,4 +156,4 @@ main .curriculum p {
     display: flex;
     text-align: justify;
     color: #383e6d;
-}
+} */
