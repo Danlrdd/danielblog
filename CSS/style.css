@@ -9,6 +9,15 @@
     --nav-font-size: 1.6rem;
     --nav-background-color: #00192b;
 }
+h2{
+    font-size: 4rem;
+}
+h3 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.6rem;
+}
 
 * {
     box-sizing: border-box;
@@ -138,25 +147,37 @@ main .jobs .myjobs{
     font-family: 'Fragment Mono', monospace;
 }
 
+main .myjobs .myjobs_logos {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main .myjobs img{
     width: 120px;
     height: 120px;
-    background-color: #383e6d;
+    background-color: #00192b;
     object-fit: contain;
     object-position: center;
     border-radius: 10px;
 }
 
+main .myjobs_description {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 main .myjobs h2{
-    font-size: 4rem;
     margin-bottom: 15px;
 }
 
 main .myjobs h3{
-    font-size: 1.6rem;
     margin-bottom: 10px;
 }
 
-*p {
+main .myjobs p {
     font-size: 1.6rem;
 }
