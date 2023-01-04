@@ -20,43 +20,44 @@
 html {
     font-size: 62.5%;
 }
+
 a {
     text-decoration: none;
     cursor: pointer;
 }
 
 header {
-    width: 100%;
-    height: 10rem;
+    width: 25vw;
+    height: 100vh;
+    position: fixed;
     background-color: var(--nav-background-color);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
 }
 
-header p{
-    margin-left: 3rem   ;
-    width: 30rem;
-    height: auto;
-    font-size: 3.5rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: justify;
-    color: white;
-    font-family: 'Audiowide', cursive;
-    ;
-}
 
 nav {
-    display: flex;
-    justify-content: flex-end;
     height: 100%;
-}
-header nav .nav-right-section{
-    width: 35rem;
-    height: auto;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+header nav .page-title{
+    padding-top: 25vh;
+    width: 25vw;
+    height: 35%;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+
+header nav .nav-right-section{
+    width: auto;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     font-size: var(--nav-font-size);
     font-family: 'Fragment Mono', monospace;
@@ -65,13 +66,23 @@ header nav .nav-right-section{
 nav .nav-right-section a {
     color: white;
 }
+
 nav .nav-right-section li{
-    width: 45%;
+    width: 150px;
+    height: 40px;
     border: solid 1px;
     border-color: white;
     border-radius: 0.5rem;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+nav .nav-right-section li:hover{
+    box-shadow: 0 0.05rem 0.2rem 0 #30a2d9;
+    border-color: #383e6d;
+    font-size: 1.7rem;
 }
 
 main {
@@ -79,6 +90,7 @@ main {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: white;
 }
 
 main .main-photo {
