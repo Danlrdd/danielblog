@@ -85,75 +85,78 @@ nav .nav-right-section li:hover{
 }
 
 main {
-    width: 75vw;
+    max-width: 75vw;
     height: 100vh;
     background-color: white;
     margin-left: 25vw;
 }
 
 main .biography {
-    display: flex;
     height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 .biography_photo img{
     height: 250px;
     width: 250px;
     border-radius: 15%;
 }
 
-main .biography_curriculum h1{
+.biography_curriculum {
+    width: 45vw;
+}
+
+main .biography_curriculum h2{
         font-size: 4rem;
         font-family: 'Fragment Mono', monospace;
-        margin-top: 10rem;
-        margin-bottom: 3rem;
         color: #383e6d;
+        margin-bottom: 15px;
 }
 
 main .biography_curriculum p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Fragment Mono', monospace;
-    margin: 0 10rem 1.5rem 0;
     display: flex;
     text-align: justify;
     color: #383e6d;
+    margin-bottom: 10px;
 }
 
-/* 
-main .main-photo {
+main .jobs {
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
-    height: 100vw;
-    width: 40vw;
+    background-color: #9df3ff;
 }
 
-main .main-photo img {
-    margin-top: 10rem;
-    width: 35rem;
-    height: 35rem;
-    border-radius: 15%;
-    border: solid 2px #383e6d;
-}
-
-main .curriculum {
+main .jobs .myjobs{
+    height: 50vh;
     display: flex;
-    justify-content: space-evenly;
-    height: 100vw;
-    width: 60vw;
+    color: #383e6d;
+    font-family: 'Fragment Mono', monospace;
 }
 
-main .curriculum h1 {
+main .myjobs img{
+    width: 120px;
+    height: 120px;
+    background-color: #383e6d;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+}
+
+main .myjobs h2{
     font-size: 4rem;
-    font-family: 'Fragment Mono', monospace;
-    margin-top: 10rem;
-    margin-bottom: 3rem;
-    color: #383e6d;
+    margin-bottom: 15px;
 }
 
-main .curriculum p {
-    font-size: 1.8rem;
-    font-family: 'Fragment Mono', monospace;
-    margin: 0 10rem 1.5rem 0;
-    display: flex;
-    text-align: justify;
-    color: #383e6d;
-} */
+main .myjobs h3{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+*p {
+    font-size: 1.6rem;
+}
