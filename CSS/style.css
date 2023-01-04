@@ -1,3 +1,10 @@
+/* grises azules
+.color1 {color: #00192b;}
+.color2 {color: #383e6d;}
+.color3 {color: #30a2d9;}
+.color4 {color: #6acaf6;}
+.color5 {color: #9df3ff;} */
+
 :root {
     --nav-font-size: 1.6rem;
     --nav-background-color: #00192b;
