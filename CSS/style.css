@@ -147,7 +147,7 @@ main .biography_curriculum p{
     background-color: #9df3ff;
 }
 main .experience_container {
-    height: 100vh;
+    height: 50vh;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -163,7 +163,7 @@ main .myjobs{
 }
 
 main .myjobs .myjobs_logos {
-    width: 25%;
+    width: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +180,7 @@ main .myjobs img{
 }
 
 main .myjobs_description {
-    width: 75%;
+    width: 580px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,4 +201,80 @@ main .myjobs p {
 main .myjobs span{
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+
+
+
+#education {
+    background-color: #9df3ff;
+}
+main .education_container {
+    height: 50vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .myeducation{
+    height: 50vh;
+    display: flex;
+    color: #383e6d;
+    font-family: 'Fragment Mono', monospace;
+}
+
+main .myeducation .myeducation_logos {
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .myeducation img{
+    width: 120px;
+    height: 120px;
+    background-color: #00192b;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+    border: solid #00192b 10px;
+}
+
+main .myeducation_description {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .myeducation h2{
+    margin-bottom: 15px;
+}
+
+main .myeducation h3{
+    margin-bottom: 10px;
+}
+
+main .myeducation p {
+    margin-bottom: 1rem;
+}
+
+main .myeducation span{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.myeducation_description_pucp {
+    display: flex;
+}
+.pucp_icon {
+    background-image: url("../ASSETS/pucp_logo.png");
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    background-color: orange;
 }
