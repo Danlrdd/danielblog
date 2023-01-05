@@ -409,51 +409,87 @@ footer {
 footer .footer_container {
     height: 25vh;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 
 .footer_container h2{
     font-family: 'Fragment Mono', monospace;
     color: white;
-    width: 20%;
 }
 
-.footer_container h3{
+.footer_container p{
     font-family: 'Fragment Mono', monospace;
     color: white;
-    margin-left: 15px;
 }
 
-.footer_container_title {
+footer .footer_container_title {
+    width: 250px;
     display: flex;
     flex-direction: column;
 }
 
 .footer_container_email {
+    height: 20vh;
+    width: 250px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer_container_linkedin {
+    height: 20vh;
+    width: 250px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer_container_cell {
+    height: 20vh;
+    width: 250px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 footer .email_icon{
-    margin-right: 20px;
     border-radius: 5%;
     background-image: url("../ASSETS/gmail_logo.png");
-    background-repeat: none;
+    background-repeat: no-repeat ;
     background-position: center;
     background-size: contain;
     width: 50px;
     height: 50px;
-    background-color: #30a2d9;
-    border: solid #30a2d9 5px;
+    background-color: white;
+    border: solid white 5px;
+    margin-bottom: 15px;
+}
+
+footer .linkedin_icon{
+    border-radius: 5%;
+    background-image: url("../ASSETS/linkedin_icon.png");
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: solid white 5px;
+    margin-bottom: 15px;
+}
+
+footer .cell_icon{
+    border-radius: 5%;
+    background-image: url("../ASSETS/whatsapp_icon.png");
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: solid white 5px;
+    margin-bottom: 15px;
 }
