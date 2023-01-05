@@ -395,7 +395,7 @@ main .ideveloper_photo img {
 footer {
     max-width: 75vw;
     height: 25vh;
-    background-color:#00192b;
+    background-color:white;
     margin-top: 150vh;
     margin-left: 25vw; 
 }
@@ -414,12 +414,13 @@ footer .footer_container {
 
 .footer_container h2{
     font-family: 'Fragment Mono', monospace;
-    color: white;
+    color: #383e6d;
 }
 
-.footer_container p{
+.footer_container p, a{
     font-family: 'Fragment Mono', monospace;
-    color: white;
+    color: #383e6d;
+    font-size: 1.6rem;
 }
 
 footer .footer_container_title {
@@ -463,8 +464,6 @@ footer .email_icon{
     background-size: contain;
     width: 50px;
     height: 50px;
-    background-color: white;
-    border: solid white 5px;
     margin-bottom: 15px;
 }
 
@@ -476,8 +475,6 @@ footer .linkedin_icon{
     background-size: contain;
     width: 50px;
     height: 50px;
-    background-color: white;
-    border: solid white 5px;
     margin-bottom: 15px;
 }
 
@@ -489,7 +486,5 @@ footer .cell_icon{
     background-size: contain;
     width: 50px;
     height: 50px;
-    background-color: white;
-    border: solid white 5px;
     margin-bottom: 15px;
 }
