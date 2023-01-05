@@ -1,0 +1,92 @@
+/* PALETA DE COLORES
+.color1 {color: #00192b;}
+.color2 {color: #383e6d;}
+.color3 {color: #30a2d9;}
+.color4 {color: #6acaf6;}
+.color5 {color: #9df3ff;} */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    color: #383e6d;
+    font-family: 'Fragment Mono', monospace;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    position:fixed;
+    background-color: #00192b;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+}
+
+header nav .page-title{
+    width: 100%;
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+
+header nav .nav-right-section{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+/* .nav-right-section{
+    float: left;
+} */
+
+.nav-right-section span{
+    display: flex;
+    background-color: white;
+    background-image: url("../ASSETS/menu_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+}
+
+.nav-right-section li{
+    display: none;
+}
+
+.nav-right-section span:active{
+    display: block;
+}
