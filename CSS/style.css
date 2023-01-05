@@ -93,6 +93,7 @@ nav .nav-right-section li:hover{
     font-size: 1.7rem;
 }
 
+/*MAIN SECTION*/
 main {
     max-width: 75vw;
     height: 100vh;
@@ -100,6 +101,7 @@ main {
     margin-left: 25vw;
 }
 
+/* Profile section */
 #profile {
     background-color: white;
 }
@@ -143,6 +145,7 @@ main .biography_curriculum p{
     margin-bottom: 10px;
 }
 
+/* Exoerience section */
 #experience {
     background-color: #9df3ff;
 }
@@ -203,19 +206,15 @@ main .myjobs span{
     font-weight: bold;
 }
 
-
-
-
+/* Education section */
 #education {
-    background-color: #9df3ff;
+    background-color: white;
 }
+
 main .education_container {
     height: 50vh;
     width: 90%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 main .myeducation{
@@ -243,7 +242,7 @@ main .myeducation img{
 }
 
 main .myeducation_description {
-    width: 580px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -253,28 +252,162 @@ main .myeducation h2{
     margin-bottom: 15px;
 }
 
-main .myeducation h3{
+.myeducation_description_pucp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
 }
-
-main .myeducation p {
-    margin-bottom: 1rem;
-}
-
-main .myeducation span{
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-
-.myeducation_description_pucp {
-    display: flex;
-}
 .pucp_icon {
+    margin-right: 20px;
+    border-radius: 5%;
     background-image: url("../ASSETS/pucp_logo.png");
     background-repeat: none;
     background-position: center;
     background-size: contain;
-    height: 50px;
     width: 50px;
-    background-color: orange;
+    height: 50px;
+    background-color: #30a2d9;
+    border: solid #30a2d9 5px;
 }
+
+.myeducation_description_pucp h3{
+    width: 35%;
+    height: auto;
+}
+
+.myeducation_description_pucp p {
+    width: 35%;
+}
+
+.myeducation_description_autonoma {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.autonoma_icon {
+    margin-right: 20px;
+    border-radius: 5%;
+    background-image: url("../ASSETS/autonoma_logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-color: #30a2d9;
+    border: solid #30a2d9 5px;
+}
+
+.myeducation_description_autonoma h3{
+    width: 35%;
+    height: auto;
+}
+
+.myeducation_description_autonoma p {
+    width: 35%;
+}
+
+.myeducation_description_language {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.language_icon {
+    margin-right: 20px;
+    border-radius: 5%;
+    background-image: url("../ASSETS/us_logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-color: #30a2d9;
+    border: solid #30a2d9 5px;
+}
+
+.myeducation_description_language h3{
+    width: 35%;
+    height: auto;
+}
+
+.myeducation_description_language p {
+    width: 35%;
+}
+
+.myeducation_description_software {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.software_icon {
+    margin-right: 20px;
+    border-radius: 5%;
+    background-image: url("../ASSETS/adobe_premier_logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-color: #30a2d9;
+    border: solid #30a2d9 5px;
+}
+
+.myeducation_description_software h3{
+    width: 35%;
+    height: auto;
+}
+
+.myeducation_description_software p {
+    width: 35%;
+}
+
+/* Developer section */
+#developer {
+    background-color: #6acaf6;
+}
+
+main .developer_container {
+    height: 50vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Fragment Mono', monospace;
+    color:#383e6d;
+}
+
+main .ideveloper_photo img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+/* Footer Contact Section */
+footer {
+    max-width: 75vw;
+    height: 30vh;
+    background-color: white;
+    margin-left: 25vw;
+}
+#page_footer {
+    background-color: white;
+}
+
+footer .footer_container {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
