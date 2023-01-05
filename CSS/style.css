@@ -145,6 +145,36 @@ main .biography_curriculum p{
     margin-bottom: 10px;
 }
 
+main .curriculum_button {
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.curriculum_button button {
+    height: 30px;
+    width: 150px;
+    background-color:white;
+    border: solid 1px #383e6d;
+    border-radius: 5px;
+}
+
+.curriculum_button button a {
+    color: #383e6d;
+}
+
+main .curriculum_icon {
+    background-image: url("../ASSETS/download_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
 /* Exoerience section */
 #experience {
     background-color: #9df3ff;
@@ -417,7 +447,7 @@ footer .footer_container {
     color: #383e6d;
 }
 
-.footer_container p, a{
+footer .footer_container p, a{
     font-family: 'Fragment Mono', monospace;
     color: #383e6d;
     font-size: 1.6rem;
