@@ -394,20 +394,66 @@ main .ideveloper_photo img {
 /* Footer Contact Section */
 footer {
     max-width: 75vw;
-    height: 30vh;
-    background-color: white;
-    margin-left: 25vw;
+    height: 25vh;
+    background-color:#00192b;
+    margin-top: 150vh;
+    margin-left: 25vw; 
 }
+
 #page_footer {
-    background-color: white;
+    height: 25vh;
+    width: 90%;
+    margin: 0 auto;
 }
 
 footer .footer_container {
-    height: 100vh;
-    width: 90%;
-    margin: 0 auto;
+    height: 25vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
+.footer_container h2{
+    font-family: 'Fragment Mono', monospace;
+    color: white;
+    width: 20%;
+}
+
+.footer_container h3{
+    font-family: 'Fragment Mono', monospace;
+    color: white;
+    margin-left: 15px;
+}
+
+.footer_container_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container_email {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container_linkedin {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container_cell {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .email_icon{
+    margin-right: 20px;
+    border-radius: 5%;
+    background-image: url("../ASSETS/gmail_logo.png");
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    background-color: #30a2d9;
+    border: solid #30a2d9 5px;
+}
