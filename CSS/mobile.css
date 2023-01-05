@@ -60,19 +60,8 @@ header nav .page-title{
     margin-left: 10px;
 }
 
-header nav .nav-right-section{
-    height: 60px;
-    width: 60px;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
 
-/* .nav-right-section{
-    float: left;
-} */
-
-.nav-right-section span{
+/*.nav-right-section span{
     display: flex;
     background-color: white;
     background-image: url("../ASSETS/menu_icon.png");
@@ -81,12 +70,4 @@ header nav .nav-right-section{
     background-size: contain;
     height: 60px;
     width: 60px;
-}
-
-.nav-right-section li{
-    display: none;
-}
-
-.nav-right-section span:active{
-    display: block;
-}
+} */
