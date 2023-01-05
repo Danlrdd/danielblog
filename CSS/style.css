@@ -518,3 +518,44 @@ footer .cell_icon{
     height: 50px;
     margin-bottom: 15px;
 }
+
+/*animations*/
+.experience_container, .education_container, .developer_container, .footer_container {
+    animation-name: rightin_animation;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-play-state: paused;
+    animation-fill-mode: backwards;
+}
+
+@keyframes rightin_animation {
+
+
+    0% {
+        /* transform: translateX(100%); */
+        opacity: 1;
+    }
+    10% {
+        opacity: 0.4;
+    }
+    100% {
+        /* transform: translateX(0); */
+        opacity: 1;
+    }
+}
+
+.experience_container:hover {
+    animation-play-state:running;
+}
+
+.education_container:hover {
+    animation-play-state:running;
+}
+
+.developer_container:hover {
+    animation-play-state:running;
+} 
+
+.footer_container:hover {
+    animation-play-state:running;
+}
