@@ -112,16 +112,66 @@ main .profile_container {
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 .biography_photo {
-    width: 10rem;
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .biography_photo img {
     border-radius: 10px;
-    height: 100%;
-    width: 100%;
-    margin-top: 1rem;
+    height: 150px;
+    width: 150px;
+}
+
+.biography_curriculum {
+    margin-top: 20px;
+}
+
+.biography_curriculum h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.biography_curriculum p {
+    margin-bottom: 10px;
+}
+
+.biography_curriculum_p3 {
+    display: none;
+}
+
+.curriculum_button {
+    height: 30px;
+    width: 300px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.curriculum_button button {
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border: solid 1px #383e6d;
+    border-radius: 5px;
+}
+
+.curriculum_button a {
+    color: #383e6d;
+}
+
+.curriculum_icon {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    background-image: url("../ASSETS/download_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }

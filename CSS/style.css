@@ -107,6 +107,7 @@ main {
 /* Profile section */
 #profile {
     background-color: white;
+    padding-top: 0;
 }
 
 main .profile_container {
