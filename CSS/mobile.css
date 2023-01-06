@@ -184,21 +184,22 @@ main .profile_container {
 
 /*Experience section*/
 #experience {
-    background-color: #9df3ff ;
+    background-color: #00192b ;
+    color: white;
 }
 
 .experience_container {
     height: 100vh;
     width: 90%;
     margin: 0 auto;
-}
-
-.myjobs {
+    padding: 100px 0;
     display: flex;
-    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.myjobs_logos {
+.experience_container_logos {
     height: 200px;
     width: 100%;
     display: flex;
@@ -206,16 +207,26 @@ main .profile_container {
     align-items: center;
 }
 
-.myjobs_logos figure {
+.experience_container_logos figure {
     background-color: #00192b;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     display: flex;
     align-items: center;
     border: solid 10px #00192b;
 }
-.myjobs img {
+.experience_container_logos img {
     width: 100%;
+}
+
+.experience_container_description h3 {
+    margin-bottom: 10px;
+}
+.experience_container_description p {
+    margin-bottom: 10px;
+}
+.experience_container_description span {
+    font-weight: bold;
 }
 
 /* Footer Section */
