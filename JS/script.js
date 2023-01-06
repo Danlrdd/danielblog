@@ -1,4 +1,4 @@
-/* se hará un toggle class. Al hacerle click al boton*/
+/* se hará un toggle class a la clase .nav agregandole un "active". Al hacerle click al boton*/
 const buttom = document.querySelector(".menu_buttom")
 const nav = document.querySelector(".nav")
 

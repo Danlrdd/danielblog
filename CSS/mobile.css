@@ -94,3 +94,34 @@ header li{
 header a{
     color: white;
 }
+
+/* Main Section Mobile*/
+main {
+    height: 100vh;
+    max-width: 480px;
+    background-color: white;
+}
+
+#profile {
+    padding-top: 6rem;
+    background-color: white;
+}
+
+main .profile_container {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.biography_photo {
+    width: 10rem;
+}
+
+.biography_photo img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+}
