@@ -102,6 +102,7 @@ main {
     background-color: white;
 }
 
+/* Profile Section */
 #profile {
     padding-top: 6rem;
     background-color: white;
@@ -118,24 +119,25 @@ main .profile_container {
 .biography_photo {
     margin-top: 20px;
     width: 100%;
-    height: 150px;
+    height: 30%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .biography_photo img {
     border-radius: 10px;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 }
 
 .biography_curriculum {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .biography_curriculum h2 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .biography_curriculum p {
@@ -147,31 +149,76 @@ main .profile_container {
 }
 
 .curriculum_button {
-    height: 30px;
-    width: 300px;
-    display: flex;
-    margin-top: 15px;
-    align-items: center;
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
 }
 
 .curriculum_button button {
-    height: 30px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     background-color: white;
     border: solid 1px #383e6d;
     border-radius: 5px;
 }
 
-.curriculum_button a {
+.curriculum_button button a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #383e6d;
 }
 
 .curriculum_icon {
     height: 25px;
     width: 25px;
+    display: flex;
     margin-right: 5px;
     background-image: url("../ASSETS/download_icon.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+/*Experience section*/
+#experience {
+    background-color: #9df3ff ;
+}
+
+.experience_container {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.myjobs {
+    display: flex;
+    margin: auto 0;
+}
+
+.myjobs_logos {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myjobs_logos figure {
+    background-color: #00192b;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border: solid 10px #00192b;
+}
+.myjobs img {
+    width: 100%;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 150vh;
 }
