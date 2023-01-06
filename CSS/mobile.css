@@ -98,7 +98,7 @@ header a{
 /* Main Section Mobile*/
 main {
     height: 100vh;
-    max-width: 480px;
+    max-width: 100vw;
     background-color: white;
 }
 
@@ -110,7 +110,7 @@ main {
 
 main .profile_container {
     height: 100vh;
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -184,8 +184,7 @@ main .profile_container {
 
 /*Experience section*/
 #experience {
-    background-color: #00192b ;
-    color: white;
+    background-color: #9df3ff ;
 }
 
 .experience_container {
@@ -195,7 +194,6 @@ main .profile_container {
     padding: 100px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -208,12 +206,10 @@ main .profile_container {
 }
 
 .experience_container_logos figure {
-    background-color: #00192b;
     height: 200px;
     width: 200px;
     display: flex;
     align-items: center;
-    border: solid 10px #00192b;
 }
 .experience_container_logos img {
     width: 100%;
@@ -222,14 +218,170 @@ main .profile_container {
 .experience_container_description h3 {
     margin-bottom: 10px;
 }
+
 .experience_container_description p {
     margin-bottom: 10px;
 }
+
 .experience_container_description span {
     font-weight: bold;
 }
 
+/* Education Section */
+
+#education {
+    background-color: white;
+}
+
+.education_container {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.education_container h2 {
+    margin-bottom: 20px;
+}
+
+.education_container_pucp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.education_container_pucp span {
+    height: 90px;
+    width: 20%;
+    background-image: url("../ASSETS/pucp_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #6acaf6;
+}
+
+.education_container_pucp h3 {
+    font-size: 1.6rem;
+    width: 35%;
+}
+
+.education_container_pucp p {
+    width: 35%;
+}
+
+
+.education_container_autonoma {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.education_container_autonoma span {
+    height: 90px;
+    width: 20%;
+    background-image: url("../ASSETS/autonoma_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #6acaf6;
+}
+
+.education_container_autonoma h3 {
+    font-size: 1.6rem;
+    width: 35%;
+}
+
+.education_container_autonoma p {
+    width: 35%;
+}
+
+
+.education_container_language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.education_container_language span {
+    height: 90px;
+    width: 20%;
+    background-image: url("../ASSETS/us_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #6acaf6;
+}
+
+.education_container_language h3 {
+    font-size: 1.6rem;
+    width: 35%;
+}
+
+.education_container_language p {
+    width: 35%;
+}
+
+
+.education_container_software {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.education_container_software span {
+    height: 90px;
+    width: 20%;
+    background-image: url("../ASSETS/adobe_premier_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #6acaf6;
+}
+
+.education_container_software h3 {
+    font-size: 1.6rem;
+    width: 35%;
+}
+
+.education_container_software p {
+    width: 35%;
+}
+
+/* Developer Section */
+#developer {
+    background-color:#6acaf6 ;
+}
+
+.developer_container {
+    height: 50vh;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.developer_container h2 {
+    margin-bottom: 20px;
+}
+
+.developer_container p {
+    margin-bottom: 10px;
+}
+.developer_container_photo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
 /* Footer Section */
 footer {
-    margin-top: 150vh;
+    margin-top: 300vh;
 }
