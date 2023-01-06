@@ -383,5 +383,76 @@ main .profile_container {
 
 /* Footer Section */
 footer {
-    margin-top: 300vh;
+    margin-top: 258vh;
+    background-color: white;
+    color: #383e6d;
+}
+
+footer a{
+    color: #383e6d;
+    font-size: 1.6rem;
+}
+
+.footer_container {
+    height: 50vh;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_container h2 {
+    margin-bottom: 20px;
+}
+
+.footer_container_email {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.footer_container_email span {
+    height: 28px;
+    width: 20%;
+    background-image: url("../ASSETS/gmail_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.footer_container_linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.footer_container_linkedin span {
+    height: 35px;
+    width: 20%;
+    background-image: url("../ASSETS/linkedin_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.footer_container_cell {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.footer_container_cell span {
+    height: 35px;
+    width: 20%;
+    background-image: url("../ASSETS/whatsapp_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
