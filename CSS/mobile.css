@@ -251,7 +251,7 @@ main .profile_container {
 .education_container_pucp {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 20px;
 }
 
@@ -264,11 +264,13 @@ main .profile_container {
     background-size: contain;
     background-color: #6acaf6;
     border-radius: 5px;
+    margin-right: 5px
 }
 
 .education_container_pucp h3 {
     font-size: 1.6rem;
     width: 35%;
+    margin-right: 5px
 }
 
 .education_container_pucp p {
@@ -279,7 +281,7 @@ main .profile_container {
 .education_container_autonoma {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 20px;
 }
 
@@ -292,11 +294,13 @@ main .profile_container {
     background-size: contain;
     background-color: #6acaf6;
     border-radius: 5px;
+    margin-right: 5px
 }
 
 .education_container_autonoma h3 {
     font-size: 1.6rem;
     width: 35%;
+    margin-right: 5px
 }
 
 .education_container_autonoma p {
@@ -307,7 +311,7 @@ main .profile_container {
 .education_container_language {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 20px;
 }
 
@@ -320,11 +324,13 @@ main .profile_container {
     background-size: contain;
     background-color: #6acaf6;
     border-radius: 5px;
+    margin-right: 5px
 }
 
 .education_container_language h3 {
     font-size: 1.6rem;
     width: 35%;
+    margin-right: 5px
 }
 
 .education_container_language p {
@@ -335,7 +341,7 @@ main .profile_container {
 .education_container_software {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 20px;
 }
 
@@ -348,11 +354,13 @@ main .profile_container {
     background-size: contain;
     background-color: #6acaf6;
     border-radius: 5px;
+    margin-right: 5px
 }
 
 .education_container_software h3 {
     font-size: 1.6rem;
     width: 35%;
+    margin-right: 5px
 }
 
 .education_container_software p {
