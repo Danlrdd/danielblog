@@ -263,6 +263,7 @@ main .profile_container {
     background-position: center;
     background-size: contain;
     background-color: #6acaf6;
+    border-radius: 5px;
 }
 
 .education_container_pucp h3 {
@@ -290,6 +291,7 @@ main .profile_container {
     background-position: center;
     background-size: contain;
     background-color: #6acaf6;
+    border-radius: 5px;
 }
 
 .education_container_autonoma h3 {
@@ -317,6 +319,7 @@ main .profile_container {
     background-position: center;
     background-size: contain;
     background-color: #6acaf6;
+    border-radius: 5px;
 }
 
 .education_container_language h3 {
@@ -344,6 +347,7 @@ main .profile_container {
     background-position: center;
     background-size: contain;
     background-color: #6acaf6;
+    border-radius: 5px;
 }
 
 .education_container_software h3 {
@@ -380,7 +384,7 @@ main .profile_container {
 .developer_container_photo img {
     height: 100px;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* Footer Section */
