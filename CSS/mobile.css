@@ -100,7 +100,7 @@ header a{
 /* Main Section Mobile*/
 main {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: white;
 }
 
@@ -191,7 +191,7 @@ main .profile_container {
 
 .experience_container {
     height: 100vh;
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     padding: 100px 0;
     display: flex;
@@ -237,7 +237,7 @@ main .profile_container {
 
 .education_container {
     height: 100vh;
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -366,7 +366,7 @@ main .profile_container {
 
 .developer_container {
     height: 50vh;
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     padding: 50px 0;
     display: flex;
@@ -401,7 +401,7 @@ footer a{
 
 .footer_container {
     height: 50vh;
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     padding: 50px 0;
     display: flex;
@@ -462,3 +462,42 @@ footer a{
     background-position: center;
     background-size: contain;
 }
+
+/*animations*/
+/* .experience_container, .education_container, .developer_container, .footer_container {
+    animation-name: rightin_animation;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-play-state: paused;
+    animation-fill-mode: backwards;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes rightin_animation {
+
+
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+.experience_container:hover {
+    animation-play-state:running;
+}
+
+.education_container:hover {
+    animation-play-state:running;
+}
+
+.developer_container:hover {
+    animation-play-state:running;
+} 
+
+.footer_container:hover {
+    animation-play-state:running;
+} */
