@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5.%;
+}
+
+header {
+    height: 100vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_buttom {
+    display: none;
+}
+
+.nav {
+    display: block;
+}
+
+.page-title {
+    font-size: 2rem;
+    height: 40%;
+    width: 100%;
+    padding-top: 220px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    height: 60%;
+    width: 100%;
+    margin-top: 0;
+}
+
+.header ul {
+    margin-top: 0;
+}
+
+/* Main Section*/
+main {
+    height: 100vh;
+    max-width: 73.9vw;
+    margin-left: 25vw;
+}
+
+/*Profile Section*/
+.profile_container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile_container article {
+    margin-bottom: 30px;
+}
+
+.curriculum_button {
+    width: 100%;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.biography_curriculum_p3 {
+    display: block;
+}
+
+/*Experience Section*/
+.experience_container {
+    height: 75vh;
+}
+
+.experience_container_logos {
+    height: 100px;
+}
+
+/*Education Section*/
+.education_container {
+    height: 75vh;
+}
+
+.education_container_pucp{
+    display: flex;
+    justify-content: center;
+}
+
+.education_container_pucp span {
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.education_container_pucp h3 {
+    margin-right: 40px;
+}
+
+.education_container_autonoma{
+    display: flex;
+    justify-content: center;
+}
+
+.education_container_autonoma span {
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.education_container_autonoma h3 {
+    margin-right: 40px;
+}
+
+.education_container_language{
+    display: flex;
+    justify-content: center;
+}
+
+.education_container_language span {
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.education_container_language h3 {
+    margin-right: 40px;
+}
+
+.education_container_software {
+    display: flex;
+    justify-content: center;
+}
+
+.education_container_software span {
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.education_container_software h3 {
+    margin-right: 40px;
+}
+
+/*Developer Section*/
+
+.developer_container {
+    justify-content: center;
+    height: 50vh;
+}
+
+.developer_container p {
+    margin-bottom: 20px;
+}
+
+.developer_container img {
+    height: 125px;
+    width: 125px;
+}
+
+/*Footer Section*/
+footer{
+    margin-top: 205vh;
+    margin-left: 25vw;
+}
+
+.footer_container {
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer_container_email {
+    width: 25%;
+    flex-direction: column;
+}
+
+.footer_container_email span{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.footer_container_linkedin {
+    width: 25%;
+    flex-direction: column;
+}
+
+.footer_container_linkedin span{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.footer_container_cell {
+    width: 25%;
+    flex-direction: column;
+}
+
+.footer_container_cell span{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+
+
