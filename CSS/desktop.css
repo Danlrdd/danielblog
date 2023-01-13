@@ -55,6 +55,7 @@ main {
 
 /*Profile Section*/
 .profile_container {
+    width: 65%;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -70,6 +71,10 @@ main {
     margin: 0 auto;
 }
 
+.biography_curriculum {
+    text-align: justify;
+}
+
 .biography_curriculum_p3 {
     display: block;
 }
@@ -77,15 +82,21 @@ main {
 /*Experience Section*/
 .experience_container {
     height: 75vh;
+    width: 65%;
 }
 
 .experience_container_logos {
     height: 100px;
 }
 
+.experience_container_description {
+    text-align: justify;
+}
+
 /*Education Section*/
 .education_container {
     height: 75vh;
+    width: 65%;
 }
 
 .education_container_pucp{
@@ -153,15 +164,17 @@ main {
 .developer_container {
     justify-content: center;
     height: 50vh;
+    width: 65%;
 }
 
 .developer_container p {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .developer_container img {
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
 }
 
 /*Footer Section*/
@@ -171,6 +184,7 @@ footer{
 }
 
 .footer_container {
+    width: 65%;
     height: 25vh;
     display: flex;
     flex-direction: row;
