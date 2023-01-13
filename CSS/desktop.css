@@ -183,12 +183,17 @@ footer{
     margin-left: 25vw;
 }
 
+footer h2{
+    display: none;
+}
+
 .footer_container {
     width: 65%;
     height: 25vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .footer_container_email {
