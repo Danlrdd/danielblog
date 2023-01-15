@@ -373,7 +373,7 @@ main .profile_container {
 }
 
 .developer_container {
-    height: 50vh;
+    height: 100%;
     max-width: 90%;
     margin: 0 auto;
     padding: 50px 0;
@@ -397,7 +397,7 @@ main .profile_container {
 
 /* Footer Section */
 footer {
-    margin-top: 258vh;
+    margin-top: 268vh;
     background-color: white;
     color: #383e6d;
 }
